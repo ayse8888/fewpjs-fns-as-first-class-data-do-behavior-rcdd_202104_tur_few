@@ -21,7 +21,7 @@ function greet(timeString) {
 }  
 }
 /* Write your implementation of displayMessage() */
-function displayMessage(String) {
+function displayMessage(timeString) {
   const header = document.getElementById("greeting")
   header.innerHTML = timeString
 }
